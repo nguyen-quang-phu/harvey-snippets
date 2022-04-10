@@ -1,0 +1,50 @@
+{
+  "String Interpolation": {
+    "prefix": "strint",
+    "scope": "ruby",
+    "body": [
+      "\"#{$1}\""
+    ],
+    "description": "String Interpolation"
+  },
+  "Filter": {
+    "prefix": ".filter",
+    "scope": "ruby",
+    "body": [
+      ".select"
+    ],
+    "description": "Filter"
+  },
+  "class": {
+    "prefix": "class",
+    "scope": "ruby",
+    "body": [
+      "class ${1:Classname}",
+      "$2",
+      "end"
+    ],
+    "description": "class"
+  },
+  "Class init": {
+    "prefix": "class init",
+    "scope": "ruby",
+    "body": [
+      "class ${1:ClassName}",
+      "\tdef initialize$2",
+      "\t\t$3",
+      "\tend",
+      "end"
+    ],
+    "description": "Class init"
+  },
+  "Define method": {
+    "prefix": "def",
+    "scope": "ruby",
+    "body": [
+      "def ${1/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+_}${2:/downcase}/g}",
+      "\t$2",
+      "end"
+    ],
+    "description": "Define method"
+  },
+}

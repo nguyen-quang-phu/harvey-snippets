@@ -1,0 +1,40 @@
+{
+  "author": "Harvey",
+  "publisher": "harvey1998",
+  "repository": "https://github.com/nguyen-quang-phu/Harvey-Extension.git",
+  "homepage": "https://github.com/nguyen-quang-phu/Harvey-Extension#readme",
+  "name": "harvey-snippets",
+  "displayName": "Harvey Snippets",
+  "description": "This is a collection of snippets from harvey",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "erb",
+        "path": "./snippets/Bootstrap.code-snippets"
+      },
+      {
+        "language": "erb",
+        "path": "./snippets/Erb.code-snippets"
+      },
+      {
+        "language": "ruby",
+        "path": "./snippets/Rails.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/Regex.code-snippets"
+      },
+      {
+        "language": "ruby",
+        "path": "./snippets/Ruby.code-snippets"
+      }
+    ]
+  }
+}
