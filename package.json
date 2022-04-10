@@ -1,11 +1,11 @@
 {
-  "author": "Harvey",
-  "publisher": "harvey1998",
-  "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
-  "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
   "name": "harvey-snippets",
+  "publisher": "harvey1998",
   "displayName": "Harvey Snippets",
   "description": "This is a collection of snippets from harvey",
+  "author": "Harvey",
+  "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
+  "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.66.0"
