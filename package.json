@@ -1,8 +1,8 @@
 {
   "author": "Harvey",
   "publisher": "harvey1998",
-  "repository": "https://github.com/nguyen-quang-phu/Harvey-Extension.git",
-  "homepage": "https://github.com/nguyen-quang-phu/Harvey-Extension#readme",
+  "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
+  "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
   "name": "harvey-snippets",
   "displayName": "Harvey Snippets",
   "description": "This is a collection of snippets from harvey",
