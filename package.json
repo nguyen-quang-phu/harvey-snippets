@@ -7,11 +7,6 @@
   "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
   "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
   "version": "0.0.2",
-  "scripts": {
-    "publish-patch": "vsce publish patch",
-    "publish-minor": "vsce publish minor",
-    "publish-major": "vsce publish major"
-  },
   "engines": {
     "vscode": "^1.66.0"
   },
@@ -41,5 +36,8 @@
         "path": "./snippets/Ruby.code-snippets"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^2.7.0"
   }
 }
