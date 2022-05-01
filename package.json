@@ -6,7 +6,7 @@
   "author": "Harvey",
   "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
   "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.66.0"
   },
