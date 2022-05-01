@@ -34,6 +34,22 @@
       {
         "language": "ruby",
         "path": "./snippets/Ruby.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/Typescript.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/TypescriptReact.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/Javascript.code-snippets"
+      },
+      {
+        "language": "go",
+        "path": "./snippets/Go.code-snippets"
       }
     ]
   },
