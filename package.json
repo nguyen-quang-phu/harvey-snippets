@@ -7,6 +7,9 @@
   "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
   "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
   "version": "0.0.6",
+  "scripts": {
+    "deploy": "vsce publish --yarn"
+  },
   "engines": {
     "vscode": "^1.66.0"
   },
