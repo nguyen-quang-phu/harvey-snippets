@@ -6,7 +6,7 @@
   "author": "Harvey",
   "repository": "https://github.com/nguyen-quang-phu/harvey-snippets.git",
   "homepage": "https://github.com/nguyen-quang-phu/harvey-snippets/blob/main/README.md",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "scripts": {
     "deploy": "vsce publish --yarn"
   },
