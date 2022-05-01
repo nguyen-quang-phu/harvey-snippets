@@ -26,5 +26,8 @@ jobs:
         run: npm i -g vsce
 
       - name: Publish
-        run: vsce publish patch -p ${{ secrets.VSCE_PAT }}
+        if: success() && startsWith( github.ref, 'refs/tags/releases/') && matrix.os == 'ubuntu-latest'
+        run: npm run deploy
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
 
