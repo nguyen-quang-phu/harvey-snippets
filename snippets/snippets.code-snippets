@@ -14,12 +14,19 @@
     ],
     "description": "Create Snippet"
   },
-  "Typescript And Javascript": {
-    "prefix": "tsjs",
-    "scope": "json",
-    "body": [
-      "typescript,typescriptreact,javascript,javascriptreact"
-    ],
-    "description": "Typescript And Javascript"
-  },
+    "Create Snippet Typescript And Javascript": {
+      "prefix": "cstsjs",
+      "scope": "json",
+      "body": [
+        "\"$1\": {",
+        "\t\"prefix\": \"$2\",",
+        "\t\"scope\": \"typescript,typescriptreact,javascript,javascriptreact\",",
+        "\t\"body\": [",
+        "\t\t\"$4\"",
+        "\t],",
+        "\t\"description\": \"$1\"",
+        "},"
+      ],
+      "description": "Create Snippet"
+    },
 }
