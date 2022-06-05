@@ -14,4 +14,12 @@
     ],
     "description": "Create Snippet"
   },
+  "Typescript And Javascript": {
+    "prefix": "tsjs",
+    "scope": "json",
+    "body": [
+      "typescript,typescriptreact,javascript,javascriptreact"
+    ],
+    "description": "Typescript And Javascript"
+  },
 }
