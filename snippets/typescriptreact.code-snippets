@@ -86,5 +86,13 @@
       "const [t] = useTranslation();"
     ],
     "description": "Use Translation"
-  }
+  },
+  "Type Set State Action": {
+    "prefix": "tssa",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "Dispatch<SetStateAction<$1 | undefined>>"
+    ],
+    "description": "Type Set State Action"
+  },
 }
