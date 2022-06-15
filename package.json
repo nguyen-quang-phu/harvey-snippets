@@ -55,6 +55,10 @@
         "path": "./snippets/TypescriptReact.code-snippets"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/Javascript.code-snippets"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/Javascript.code-snippets"
       },
