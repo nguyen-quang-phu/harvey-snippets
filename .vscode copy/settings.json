@@ -1,0 +1,11 @@
+{
+    "[ruby]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "ruby.rubocop.executePath": "",
+    "ruby.format": "rubocop",
+    "ruby.rubocop.onSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000
+}

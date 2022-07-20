@@ -1,0 +1,37 @@
+{
+  "Has One Attached": {
+    "prefix": [
+      "hoa",
+      "Has One Attached"
+    ],
+    "scope": "ruby",
+    "body": [
+      "has_one_attached :${1:attributeName}"
+    ],
+    "description": "Has One Attached"
+  },
+  "Add Column": {
+    "prefix": [
+      "ac",
+      "Add Column"
+    ],
+    "scope": "ruby",
+    "body": [
+      "add_column :${1:tableName}, :${2/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+_}${2:/downcase}/g}, :${3|string,text,integer,bigint,float,decimal,numeric,datetime,time,date,timestamp,binary,primary_key,boolean|}"
+    ],
+    "description": "Add Column"
+  },
+  "Enum": {
+    "prefix": [
+      "enum",
+      "Enum"
+    ],
+    "scope": "ruby",
+    "body": [
+      "enum ${1:nameEnum}: {",
+      "\t${2:name}: ${3:value},",
+      "}${4| , _prefix: true|}"
+    ],
+    "description": "Enum"
+  },
+}
